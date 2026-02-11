@@ -46,13 +46,13 @@ export default async function SecurityPage({
         title={t('hero.title')}
         subtitle={t('hero.subtitle')}
         statement={t('hero.statement')}
-        backgroundImage="/images/saas/soc-overview.png"
+        backgroundImage="/images/saas/soc-threats.png"
       />
       <ServicesSection heading={t('services.sectionLabel')} items={services} />
       <AISection
         heading={t('ai.heading')}
         items={aiItems}
-        backgroundImage="/images/saas/soc-threats.png"
+        backgroundImage="/images/saas/soc-overview.png"
         note={t('ai.note')}
       />
       <CapabilitiesSection capabilities={capabilities} />
