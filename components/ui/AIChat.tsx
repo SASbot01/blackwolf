@@ -28,11 +28,8 @@ export default function AIChat() {
   }, [messages, scrollToBottom]);
 
   useEffect(() => {
-    if (isOpen) {
-      if (messages.length === 0) {
-        setMessages([{ role: 'assistant', content: t('greeting') }]);
-      }
-      inputRef.current?.focus();
+    if (isOpen && inputRef.current) {
+      inputRef.current.focus();
     }
   }, [isOpen]);
 
@@ -42,16 +39,19 @@ export default function AIChat() {
     if (!trimmed || isLoading) return;
 
     const userMessage: Message = { role: 'user', content: trimmed };
-    const newMessages = [...messages, userMessage];
-    setMessages(newMessages);
+    const updatedMessages = [...messages, userMessage];
+    setMessages(updatedMessages);
     setInput('');
     setIsLoading(true);
+
+    // Only send user/assistant conversation messages to the API (exclude the greeting)
+    const apiMessages = updatedMessages.filter((_, i) => i > 0 || updatedMessages[0].role === 'user');
 
     try {
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: newMessages }),
+        body: JSON.stringify({ messages: apiMessages }),
       });
 
       if (!res.ok) throw new Error('Failed to send message');
@@ -109,6 +109,9 @@ export default function AIChat() {
     ? { duration: 0 }
     : { type: 'spring' as const, damping: 25, stiffness: 300 };
 
+  // Greeting is always the first thing shown, separate from the messages array
+  const greetingText = t('greeting');
+
   return (
     <>
       {/* Floating bubble */}
@@ -156,6 +159,14 @@ export default function AIChat() {
 
             {/* Messages */}
             <div className="flex-1 overflow-y-auto px-5 py-4">
+              {/* Greeting message - always visible */}
+              <div className="mb-3 text-left">
+                <div className="inline-block max-w-[85%] rounded-[2px] border border-gray-700 bg-gray-900/50 px-4 py-2.5 font-body text-sm leading-relaxed text-gray-200">
+                  {greetingText}
+                </div>
+              </div>
+
+              {/* Conversation messages */}
               {messages.map((msg, i) => (
                 <div
                   key={i}
@@ -165,7 +176,7 @@ export default function AIChat() {
                     className={`inline-block max-w-[85%] rounded-[2px] px-4 py-2.5 font-body text-sm leading-relaxed ${
                       msg.role === 'user'
                         ? 'bg-white text-black'
-                        : 'border border-gray-800 bg-black text-gray-200'
+                        : 'border border-gray-700 bg-gray-900/50 text-gray-200'
                     }`}
                   >
                     {msg.content}
