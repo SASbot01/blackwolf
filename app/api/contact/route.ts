@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
+import { supabase } from '@/lib/supabase';
 
 interface ContactFormData {
   name: string;
@@ -45,59 +46,70 @@ export async function POST(request: NextRequest) {
       message: sanitize(body.message),
     };
 
-    // Check if SMTP is configured
+    // Save to Supabase
+    const { error: dbError } = await supabase
+      .from('contact_submissions')
+      .insert({
+        name: data.name,
+        company: data.company || null,
+        email: data.email,
+        service: data.service,
+        message: data.message,
+      });
+
+    if (dbError) {
+      console.error('Supabase insert error:', dbError);
+    }
+
+    // Send email if SMTP is configured
     const smtpHost = process.env.SMTP_HOST;
     const smtpPort = process.env.SMTP_PORT;
     const smtpUser = process.env.SMTP_USER;
     const smtpPass = process.env.SMTP_PASS;
     const contactEmail = process.env.CONTACT_EMAIL || 'hello@blackwolfsec.io';
 
-    if (!smtpHost || !smtpUser || !smtpPass) {
-      // Log the contact form submission when SMTP is not configured
-      console.log('Contact form submission (SMTP not configured):', data);
-      return NextResponse.json({ success: true });
-    }
+    if (smtpHost && smtpUser && smtpPass) {
+      const transporter = nodemailer.createTransport({
+        host: smtpHost,
+        port: parseInt(smtpPort || '587'),
+        secure: smtpPort === '465',
+        auth: {
+          user: smtpUser,
+          pass: smtpPass,
+        },
+      });
 
-    const transporter = nodemailer.createTransport({
-      host: smtpHost,
-      port: parseInt(smtpPort || '587'),
-      secure: smtpPort === '465',
-      auth: {
-        user: smtpUser,
-        pass: smtpPass,
-      },
-    });
-
-    await transporter.sendMail({
-      from: `"Blackwolf Website" <${smtpUser}>`,
-      to: contactEmail,
-      replyTo: data.email,
-      subject: `New Contact: ${data.name} — ${data.service}`,
-      text: [
-        `Name: ${data.name}`,
-        `Company: ${data.company || 'N/A'}`,
-        `Email: ${data.email}`,
-        `Service: ${data.service}`,
-        ``,
-        `Message:`,
-        data.message,
-      ].join('\n'),
-      html: `
-        <div style="font-family: sans-serif; max-width: 600px;">
-          <h2 style="color: #000;">New Contact Form Submission</h2>
-          <table style="width: 100%; border-collapse: collapse;">
-            <tr><td style="padding: 8px 0; color: #666; width: 120px;">Name</td><td style="padding: 8px 0;">${data.name}</td></tr>
-            <tr><td style="padding: 8px 0; color: #666;">Company</td><td style="padding: 8px 0;">${data.company || 'N/A'}</td></tr>
-            <tr><td style="padding: 8px 0; color: #666;">Email</td><td style="padding: 8px 0;"><a href="mailto:${data.email}">${data.email}</a></td></tr>
-            <tr><td style="padding: 8px 0; color: #666;">Service</td><td style="padding: 8px 0;">${data.service}</td></tr>
-          </table>
-          <div style="margin-top: 16px; padding: 16px; background: #f5f5f5; border-radius: 4px;">
-            <p style="color: #666; margin: 0 0 8px 0; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">Message</p>
-            <p style="margin: 0; white-space: pre-wrap;">${data.message}</p>
+      await transporter.sendMail({
+        from: `"Blackwolf Website" <${smtpUser}>`,
+        to: contactEmail,
+        replyTo: data.email,
+        subject: `New Contact: ${data.name} — ${data.service}`,
+        text: [
+          `Name: ${data.name}`,
+          `Company: ${data.company || 'N/A'}`,
+          `Email: ${data.email}`,
+          `Service: ${data.service}`,
+          ``,
+          `Message:`,
+          data.message,
+        ].join('\n'),
+        html: `
+          <div style="font-family: sans-serif; max-width: 600px;">
+            <h2 style="color: #000;">New Contact Form Submission</h2>
+            <table style="width: 100%; border-collapse: collapse;">
+              <tr><td style="padding: 8px 0; color: #666; width: 120px;">Name</td><td style="padding: 8px 0;">${data.name}</td></tr>
+              <tr><td style="padding: 8px 0; color: #666;">Company</td><td style="padding: 8px 0;">${data.company || 'N/A'}</td></tr>
+              <tr><td style="padding: 8px 0; color: #666;">Email</td><td style="padding: 8px 0;"><a href="mailto:${data.email}">${data.email}</a></td></tr>
+              <tr><td style="padding: 8px 0; color: #666;">Service</td><td style="padding: 8px 0;">${data.service}</td></tr>
+            </table>
+            <div style="margin-top: 16px; padding: 16px; background: #f5f5f5; border-radius: 4px;">
+              <p style="color: #666; margin: 0 0 8px 0; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">Message</p>
+              <p style="margin: 0; white-space: pre-wrap;">${data.message}</p>
+            </div>
           </div>
-        </div>
-      `,
-    });
+        `,
+      });
+    }
 
     return NextResponse.json({ success: true });
   } catch (error) {
