@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/lib/routing';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import AIChat from '@/components/ui/AIChat';
 import ScrollProgress from '@/components/animations/ScrollProgress';
 import '../globals.css';
 
@@ -80,6 +81,7 @@ export default async function LocaleLayout({
           <Header />
           <main id="main-content">{children}</main>
           <Footer />
+          <AIChat />
         </NextIntlClientProvider>
       </body>
     </html>

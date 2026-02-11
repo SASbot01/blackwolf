@@ -432,6 +432,16 @@
     }
   },
 
+  "chat": {
+    "title": "Blackwolf AI",
+    "subtitle": "Business Advisor",
+    "welcome": "Hi! I'm Blackwolf's AI advisor. Tell me about your business needs and I'll help you find the right services and engagement model.",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "close": "Close chat",
+    "errorMessage": "Something went wrong. Please try again."
+  },
+
   "meta": {
     "siteTitle": "Blackwolf — Technology Holding",
     "home": {
