@@ -185,13 +185,6 @@ export default function TeamPage() {
               <div className="absolute inset-y-0 right-0 w-1/3 bg-gradient-to-r from-transparent to-black" />
             </div>
 
-            {/* Role center */}
-            <div className="flex flex-col items-center justify-center">
-              <span className="font-headline text-5xl font-bold tracking-[0.2em] text-white md:text-7xl lg:text-9xl">
-                {member.key === 'alex' ? 'CEO' : member.key === 'alejandro' ? 'CTO' : 'HoC'}
-              </span>
-            </div>
-
             {/* Logo right */}
             <div className="flex flex-shrink-0 items-center justify-center">
               <Image

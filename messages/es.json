@@ -436,6 +436,7 @@
     "title": "Blackwolf AI",
     "subtitle": "Asesor de Negocio",
     "welcome": "Hola! Soy el asesor IA de Blackwolf. Cuéntame sobre las necesidades de tu negocio y te ayudaré a encontrar los servicios y modelo de colaboración ideales.",
+    "greeting": "Hola! Aqui tienes tu bot personalizado para ayudarte a entender y seleccionar nuestros servicios. Preguntame lo que necesites sobre desarrollo, ciberseguridad o inteligencia de negocio.",
     "placeholder": "Escribe tu mensaje...",
     "send": "Enviar",
     "close": "Cerrar chat",

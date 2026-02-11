@@ -436,6 +436,7 @@
     "title": "Blackwolf AI",
     "subtitle": "Business Advisor",
     "welcome": "Hi! I'm Blackwolf's AI advisor. Tell me about your business needs and I'll help you find the right services and engagement model.",
+    "greeting": "Hi! Here's your personalized bot to help you understand and select our services. Ask me anything about development, cybersecurity, or business intelligence.",
     "placeholder": "Type your message...",
     "send": "Send",
     "close": "Close chat",

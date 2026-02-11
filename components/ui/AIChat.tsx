@@ -28,8 +28,11 @@ export default function AIChat() {
   }, [messages, scrollToBottom]);
 
   useEffect(() => {
-    if (isOpen && inputRef.current) {
-      inputRef.current.focus();
+    if (isOpen) {
+      if (messages.length === 0) {
+        setMessages([{ role: 'assistant', content: t('greeting') }]);
+      }
+      inputRef.current?.focus();
     }
   }, [isOpen]);
 
@@ -153,11 +156,6 @@ export default function AIChat() {
 
             {/* Messages */}
             <div className="flex-1 overflow-y-auto px-5 py-4">
-              {messages.length === 0 && (
-                <p className="font-body text-sm text-gray-400">
-                  {t('welcome')}
-                </p>
-              )}
               {messages.map((msg, i) => (
                 <div
                   key={i}
