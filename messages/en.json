@@ -1,0 +1,462 @@
+{
+  "nav": {
+    "home": "HOME",
+    "services": "SERVICES",
+    "development": "DEVELOPMENT",
+    "security": "SECURITY",
+    "growth": "REVOPS & BI",
+    "team": "TEAM",
+    "contact": "CONTACT"
+  },
+
+  "hero": {
+    "tagline": "Protect Excellence. Empower Innovation.",
+    "tagline2": "Technology should serve human beings.",
+    "scrollIndicator": "Scroll to explore"
+  },
+
+  "brand": {
+    "headline": "Technology that protects. Excellence that scales.",
+    "paragraph1": "Blackwolf is a technology holding company built for organizations that refuse to compromise. We design, secure, and scale digital ecosystems with precision and intent.",
+    "paragraph2": "Three divisions. One standard. Every solution we deliver is engineered to perform under pressure, adapt to complexity, and compound in value over time.",
+    "values": {
+      "excellence": {
+        "title": "Excellence",
+        "description": "We build to the highest standard or we don't build at all. Every line of code, every strategy, every recommendation carries our name."
+      },
+      "closeness": {
+        "title": "Closeness",
+        "description": "We embed with your team, learn your business, and treat your goals as ours. Partnership is not a service tier. It's how we operate."
+      },
+      "speed": {
+        "title": "Speed",
+        "description": "Decisions happen fast. Delivery happens faster. We eliminate friction between ambition and execution so momentum never stalls."
+      }
+    }
+  },
+
+  "divisions": {
+    "sectionLabel": "OUR DIVISIONS",
+    "development": {
+      "name": "BLACKWOLF DEVELOPMENT",
+      "subtitle": "AI Automation & Digital Products",
+      "description": "We build AI agents, automation workflows, and integrated AI solutions that transform how businesses operate. From custom SaaS platforms to intelligent systems, we ship products that perform.",
+      "exploreCta": "Explore Development"
+    },
+    "security": {
+      "name": "BLACKWOLF SECURITY",
+      "subtitle": "Cybersecurity & Protection",
+      "description": "Proactive defense for digital infrastructure. We find vulnerabilities before attackers do and build resilience into every layer of your stack.",
+      "exploreCta": "Explore Security"
+    },
+    "growth": {
+      "name": "BLACKWOLF REVOPS & BI",
+      "subtitle": "Data Strategy & Revenue Operations",
+      "description": "Data-driven strategy that turns insight into revenue. We optimize sales systems, sharpen marketing, and build the operational intelligence your business needs to scale.",
+      "exploreCta": "Explore Business Intelligence"
+    }
+  },
+
+  "ai": {
+    "headline": "Artificial intelligence. Not as a feature. As a foundation.",
+    "cards": {
+      "intelligentDevelopment": {
+        "title": "AI Agents & Automation",
+        "description": "Custom AI agents that handle complex workflows autonomously — from customer support to data processing — reducing operational costs by up to 60%."
+      },
+      "proactiveSecurity": {
+        "title": "Proactive Security",
+        "description": "Machine learning models that detect anomalies in real time, predict attack vectors, and automate threat response before damage occurs."
+      },
+      "smartGrowth": {
+        "title": "Smart Intelligence",
+        "description": "Predictive analytics that identify market opportunities, optimize customer journeys, and surface the insights your team would otherwise miss."
+      },
+      "operationalAutomation": {
+        "title": "Integrated AI Solutions",
+        "description": "End-to-end AI integration into your existing systems — chatbots, document processing, decision engines — tailored to your specific business logic."
+      }
+    }
+  },
+
+  "engagement": {
+    "sectionLabel": "HOW WE WORK",
+    "headline": "Flexible engagement. Tailored to your ambition.",
+    "models": {
+      "alaCarte": {
+        "name": "A la Carte",
+        "subtitle": "Single Project",
+        "description": "One clear objective. One dedicated team. We scope it, build it, and deliver it. Ideal for companies that need targeted execution without long-term commitment."
+      },
+      "allInOne": {
+        "name": "All in One",
+        "subtitle": "Full Partnership",
+        "description": "Your complete technology partner across development, security, and intelligence. We integrate with your operations and drive results across every digital touchpoint.",
+        "recommended": "Recommended"
+      },
+      "equity": {
+        "name": "All in One + Equity",
+        "subtitle": "Strategic Alliance",
+        "description": "We invest our resources, expertise, and reputation into your success. Equity alignment means we win when you win. Reserved for ventures we believe in."
+      }
+    }
+  },
+
+  "pack": {
+    "sectionLabel": "THE WOLF PACK",
+    "headline": "The minds behind the mission.",
+    "subtitle": "We don't just build technology — we live it. A lean, senior team obsessed with excellence and driven by impact.",
+    "members": {
+      "alex": {
+        "name": "Alex Gutiérrez",
+        "role": "CEO & Founder",
+        "bio": "Visionary entrepreneur with deep expertise in business strategy, AI integration, and revenue operations. Over $3M in cash collected for clients across multiple industries."
+      },
+      "alejandro": {
+        "name": "Alejandro Silvestre",
+        "role": "CTO & Founder",
+        "bio": "Technical architect and full-stack engineer specialized in scalable systems, cybersecurity, and AI-powered solutions. The engineering backbone of Blackwolf."
+      },
+      "antonio": {
+        "name": "Antonio Rivera",
+        "role": "Head of Cybersecurity",
+        "bio": "Security researcher, ethical hacker, and bug bounty hunter with proven track record securing critical infrastructure. Recognized by organizations including NASA with Hall of Fame mentions and letters of appreciation for responsible vulnerability disclosure."
+      }
+    }
+  },
+
+  "portfolio": {
+    "sectionLabel": "TRACK RECORD",
+    "headline": "Results speak louder than promises.",
+    "disclaimer": "Client identities protected under NDA.",
+    "stats": {
+      "cashCollected": {
+        "value": "+3M",
+        "label": "Cash Collected for Clients"
+      },
+      "clients": {
+        "value": "+12",
+        "label": "Clients"
+      },
+      "apps": {
+        "value": "+10",
+        "label": "Apps Built"
+      },
+      "protected": {
+        "value": "+15",
+        "label": "Companies Protected"
+      }
+    }
+  },
+
+  "contact": {
+    "headline": "Let's build something extraordinary.",
+    "fields": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "service": "Service",
+      "message": "Message"
+    },
+    "services": {
+      "development": "Development",
+      "security": "Security",
+      "growth": "Business Intelligence",
+      "fullEcosystem": "Full Ecosystem",
+      "other": "Other"
+    },
+    "submitButton": "SEND MESSAGE",
+    "successMessage": "MESSAGE SENT",
+    "sending": "SENDING...",
+    "errorMessage": "Something went wrong. Please try again.",
+    "location": "Global operations",
+    "email": "hello@blackwolfsec.io"
+  },
+
+  "thankYou": {
+    "headline": "Message received.",
+    "subtitle": "We'll be in touch within 24 hours. In the meantime, explore what Blackwolf can do for your business.",
+    "backHome": "Back to Home"
+  },
+
+  "cta": {
+    "sectionLabel": "GET STARTED",
+    "headline": "Let's Build Something Together",
+    "description": "Whether you need a full technology ecosystem or a specific solution, we're ready to talk.",
+    "button": "Contact Us"
+  },
+
+  "footer": {
+    "tagline": "Protect Excellence. Empower Innovation.",
+    "copyright": "© 2026 Blackwolf. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms"
+  },
+
+  "development": {
+    "hero": {
+      "title": "BLACKWOLF DEVELOPMENT",
+      "subtitle": "AI Automation & Digital Products",
+      "statement": "We build AI agents, automation workflows, and integrated AI solutions that transform how businesses operate. Custom applications, scalable platforms, and intelligent systems engineered for performance."
+    },
+    "services": {
+      "sectionLabel": "SERVICES",
+      "items": {
+        "customAppDev": {
+          "title": "AI Agents & Custom Automation",
+          "description": "Intelligent AI agents that automate complex business processes — from lead qualification to customer support to data analysis. Built to learn, adapt, and scale with your operations."
+        },
+        "saasArchitecture": {
+          "title": "SaaS Architecture",
+          "description": "Multi-tenant platforms built to handle millions of users without breaking a sweat. We engineer for uptime, scalability, and the kind of performance your customers expect."
+        },
+        "agencySolutions": {
+          "title": "Integrated AI Solutions",
+          "description": "End-to-end AI integration into your existing tech stack. Chatbots, document processing, predictive engines, and decision systems tailored to your specific business logic."
+        },
+        "digitalProductDesign": {
+          "title": "Digital Product Design",
+          "description": "User experiences that convert and interfaces that retain. We combine research-driven design with technical precision to build products people actually want to use."
+        },
+        "apiDevelopment": {
+          "title": "API Development & Integration",
+          "description": "Robust APIs that connect your systems, partners, and data streams into a unified ecosystem. RESTful, GraphQL, or event-driven. Built for reliability at scale."
+        },
+        "mobileApps": {
+          "title": "Workflow Automation",
+          "description": "Intelligent automation pipelines that eliminate repetitive tasks, connect your tools, and create seamless workflows — from CRM to fulfillment to reporting."
+        }
+      }
+    },
+    "ai": {
+      "heading": "AI-Native Development",
+      "examples": {
+        "codeGeneration": {
+          "title": "Custom AI Agents",
+          "description": "Purpose-built AI agents trained on your data and processes that handle complex multi-step tasks autonomously while maintaining your quality standards."
+        },
+        "automatedTesting": {
+          "title": "Intelligent Automation",
+          "description": "End-to-end workflow automation that connects your tools, processes data, and makes decisions — reducing manual work by up to 80%."
+        },
+        "predictiveArchitecture": {
+          "title": "Predictive Systems",
+          "description": "AI-driven analysis of patterns and trends that informs business decisions, predicts outcomes, and surfaces opportunities before they become obvious."
+        }
+      }
+    },
+    "capabilities": {
+      "sectionLabel": "CAPABILITIES",
+      "items": [
+        "AI Agents",
+        "LLM Integration",
+        "RAG Systems",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "OpenAI",
+        "Anthropic",
+        "LangChain",
+        "AWS",
+        "Docker",
+        "PostgreSQL",
+        "MongoDB",
+        "GraphQL",
+        "REST APIs",
+        "CI/CD",
+        "Automation",
+        "n8n",
+        "Make",
+        "Zapier"
+      ]
+    }
+  },
+
+  "security": {
+    "hero": {
+      "title": "BLACKWOLF SECURITY",
+      "subtitle": "Cybersecurity & Protection",
+      "statement": "Your digital infrastructure is only as strong as its weakest layer. We find the gaps, close them, and build defenses that evolve as fast as the threats they face."
+    },
+    "services": {
+      "sectionLabel": "SERVICES",
+      "items": {
+        "pentesting": {
+          "title": "Penetration Testing",
+          "description": "Simulated attacks that expose real vulnerabilities in your applications, networks, and infrastructure. We think like attackers so you can defend like experts."
+        },
+        "securityAudits": {
+          "title": "Security Audits",
+          "description": "Comprehensive assessments of your security posture across code, infrastructure, and processes. We deliver actionable reports, not theoretical risk matrices."
+        },
+        "vulnerabilityAssessment": {
+          "title": "Vulnerability Assessment",
+          "description": "Systematic identification and prioritization of weaknesses across your entire digital surface. Continuous scanning. Clear severity rankings. Remediation roadmaps."
+        },
+        "infrastructureProtection": {
+          "title": "Infrastructure Protection",
+          "description": "Hardened cloud and on-premise environments with layered defenses, real-time monitoring, and automated response protocols that contain threats in seconds."
+        },
+        "securityCertification": {
+          "title": "Security Certification",
+          "description": "Guided preparation and support for ISO 27001, SOC 2, GDPR compliance, and industry-specific certifications. We streamline the process so you reach compliance faster."
+        },
+        "incidentResponse": {
+          "title": "Incident Response",
+          "description": "Rapid containment, forensic analysis, and recovery when incidents occur. Our response teams deploy within hours and work until your operations are fully restored."
+        }
+      }
+    },
+    "ai": {
+      "heading": "Security Powered by Our System",
+      "note": "All our systems are powered by artificial intelligence. Our proprietary SOC monitors, detects, and responds to threats in real time.",
+      "examples": {
+        "threatDetection": {
+          "title": "Real-Time Threat Detection",
+          "description": "Machine learning models analyze network traffic patterns and flag anomalies before they escalate into breaches."
+        },
+        "predictiveDefense": {
+          "title": "Predictive Defense",
+          "description": "AI systems that learn from global threat intelligence to anticipate attack vectors and preemptively strengthen your defenses."
+        },
+        "automatedResponse": {
+          "title": "Automated Incident Response",
+          "description": "Intelligent automation that isolates compromised systems, preserves forensic evidence, and initiates recovery protocols in real time."
+        }
+      }
+    },
+    "capabilities": {
+      "sectionLabel": "CAPABILITIES",
+      "items": [
+        "OWASP",
+        "NIST",
+        "ISO 27001",
+        "SOC 2",
+        "GDPR",
+        "Zero Trust",
+        "SIEM",
+        "EDR",
+        "XDR",
+        "Threat Intelligence",
+        "Incident Response",
+        "Cloud Security",
+        "Network Security",
+        "Application Security",
+        "Identity & Access",
+        "Encryption",
+        "Compliance",
+        "Forensics",
+        "Red Teaming",
+        "Blue Teaming"
+      ]
+    }
+  },
+
+  "growth": {
+    "hero": {
+      "title": "BLACKWOLF REVOPS & BI",
+      "subtitle": "Data Strategy & Revenue Operations",
+      "statement": "Growth is not guesswork. We build the systems, strategies, and intelligence layers that turn data into decisions and decisions into measurable revenue."
+    },
+    "services": {
+      "sectionLabel": "SERVICES",
+      "items": {
+        "businessIntelligence": {
+          "title": "Business Intelligence",
+          "description": "Custom dashboards and analytics platforms that surface the metrics that matter. We transform raw data into strategic clarity your leadership team can act on immediately."
+        },
+        "salesSystems": {
+          "title": "Sales Systems",
+          "description": "End-to-end sales infrastructure from CRM optimization to pipeline automation. We engineer systems that shorten cycles, increase conversion, and scale with your team."
+        },
+        "marketingStrategy": {
+          "title": "Marketing Strategy",
+          "description": "Performance-driven marketing frameworks built on data, not assumptions. We design acquisition channels, optimize spend, and measure what actually drives growth."
+        },
+        "teamTraining": {
+          "title": "Team Training & Enablement",
+          "description": "Structured programs that elevate your team's capabilities in sales, technology, and operations. We transfer knowledge that compounds long after the engagement ends."
+        },
+        "softwareSolutions": {
+          "title": "Software Solutions for Growth",
+          "description": "Custom tools built specifically to accelerate your growth operations. From lead scoring engines to automated reporting, we build the software your growth team needs."
+        },
+        "communityBuilding": {
+          "title": "Community Building",
+          "description": "Strategic community development that turns customers into advocates. We design engagement frameworks, build platforms, and create the ecosystems that drive organic growth."
+        }
+      }
+    },
+    "ai": {
+      "heading": "Intelligence Powered by Our System",
+      "note": "All our systems are powered by artificial intelligence. Our Minimal platform centralizes sales, calendar, analytics, and finance in a single environment designed to scale revenue operations.",
+      "examples": {
+        "predictiveAnalytics": {
+          "title": "Predictive Revenue Analytics",
+          "description": "AI models that forecast revenue trends, identify churn risks, and surface upsell opportunities before your competitors see them."
+        },
+        "customerIntelligence": {
+          "title": "Customer Intelligence",
+          "description": "Machine learning that segments audiences, personalizes experiences, and maps customer journeys with a precision that manual analysis cannot match."
+        },
+        "marketOptimization": {
+          "title": "Market Optimization",
+          "description": "AI-driven analysis of market dynamics, competitive positioning, and pricing strategy that keeps you ahead of shifts in your industry."
+        }
+      }
+    },
+    "capabilities": {
+      "sectionLabel": "CAPABILITIES",
+      "items": [
+        "Business Intelligence",
+        "Data Analytics",
+        "CRM Optimization",
+        "Sales Automation",
+        "Marketing Automation",
+        "SEO & SEM",
+        "Content Strategy",
+        "Lead Generation",
+        "Conversion Optimization",
+        "Customer Analytics",
+        "Market Research",
+        "Competitive Analysis",
+        "Revenue Operations",
+        "Growth Hacking",
+        "A/B Testing",
+        "Attribution Modeling",
+        "Community Platforms",
+        "Training Programs"
+      ]
+    }
+  },
+
+  "meta": {
+    "siteTitle": "Blackwolf — Technology Holding",
+    "home": {
+      "title": "Blackwolf — Protect Excellence. Empower Innovation.",
+      "description": "Blackwolf is a premium technology holding company specializing in AI automation, cybersecurity, and business intelligence. Three divisions. One standard of excellence."
+    },
+    "development": {
+      "title": "Development — Blackwolf",
+      "description": "AI agents, automation workflows, and integrated AI solutions. Blackwolf Development builds the intelligent systems ambitious companies run on."
+    },
+    "security": {
+      "title": "Security — Blackwolf",
+      "description": "Penetration testing, security audits, infrastructure protection, and compliance certification. Blackwolf Security defends your digital assets with precision."
+    },
+    "growth": {
+      "title": "Business Intelligence — Blackwolf",
+      "description": "Business intelligence, sales systems, marketing strategy, and operational optimization. Blackwolf Intelligence turns data into decisions and decisions into revenue."
+    },
+    "contact": {
+      "title": "Contact — Blackwolf",
+      "description": "Get in touch with Blackwolf. Let's build something extraordinary together."
+    },
+    "team": {
+      "title": "Team — Blackwolf",
+      "description": "Meet the minds behind Blackwolf. A lean, senior team obsessed with excellence and driven by impact."
+    }
+  }
+}

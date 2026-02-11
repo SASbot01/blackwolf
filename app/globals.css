@@ -1,0 +1,282 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-dark: #1A1A1A;
+  --color-gray-800: #333333;
+  --color-gray-600: #666666;
+  --color-gray-400: #999999;
+  --color-gray-100: #F5F5F5;
+  --color-gray-200: #E0E0E0;
+
+  --font-display: var(--font-syne);
+  --font-headline: var(--font-josefin);
+  --font-body: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Josefin Sans metallic headline style */
+.headline-metallic {
+  font-family: var(--font-headline), sans-serif;
+  background: linear-gradient(
+    135deg,
+    #c0c0c0 0%,
+    #e8e8e8 15%,
+    #ffffff 30%,
+    #d0d0d0 45%,
+    #a8a8a8 55%,
+    #e0e0e0 70%,
+    #ffffff 85%,
+    #b8b8b8 100%
+  );
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: metallicShift 8s ease-in-out infinite;
+}
+
+.headline-metallic-dark {
+  font-family: var(--font-headline), sans-serif;
+  background: linear-gradient(
+    135deg,
+    #1a1a1a 0%,
+    #333333 15%,
+    #555555 30%,
+    #2a2a2a 45%,
+    #111111 55%,
+    #3a3a3a 70%,
+    #555555 85%,
+    #1a1a1a 100%
+  );
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: metallicShift 8s ease-in-out infinite;
+}
+
+@keyframes metallicShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Charcoal alternate background for visual rhythm */
+.bg-charcoal {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(30, 30, 33, 0.5) 0%, transparent 70%),
+    linear-gradient(180deg, #111113 0%, #0e0e10 100%);
+}
+
+/* Metallic depth background */
+.bg-metallic-dark {
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(40, 40, 45, 0.6) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 20%, rgba(50, 50, 55, 0.4) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(35, 35, 40, 0.5) 0%, transparent 60%),
+    linear-gradient(180deg, #0a0a0a 0%, #111113 30%, #0d0d0f 60%, #080808 100%);
+}
+
+/* Skip to content link */
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 100;
+  padding: 1rem 2rem;
+  background: var(--color-white);
+  color: var(--color-black);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  transition: top 200ms ease;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* Focus visible styles */
+*:focus-visible {
+  outline: 2px solid var(--color-white);
+  outline-offset: 2px;
+}
+
+.bg-white *:focus-visible,
+.bg-gray-100 *:focus-visible,
+[data-theme="light"] *:focus-visible {
+  outline-color: var(--color-black);
+}
+
+/* Metallic sheen animation for wolf logo */
+@keyframes metallicSheen {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.metallic-sheen {
+  position: relative;
+  overflow: hidden;
+}
+
+.metallic-sheen::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    transparent 40%,
+    rgba(255, 255, 255, 0.08) 45%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.08) 55%,
+    transparent 60%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: metallicSheen 6s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .metallic-sheen::after {
+    animation: none;
+    display: none;
+  }
+}
+
+/* Accent line draw animation */
+@keyframes drawLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60px;
+  }
+}
+
+.accent-line {
+  height: 2.5px;
+  background: var(--color-black);
+  animation: drawLine 400ms ease-out forwards;
+}
+
+/* Scroll progress bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--color-white);
+  z-index: 9999;
+  transition: none;
+}
+
+/* Form input styles */
+.form-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-gray-600);
+  padding: 12px 0;
+  width: 100%;
+  color: var(--color-white);
+  font-size: 16px;
+  transition: border-color 250ms ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-bottom-color: var(--color-white);
+}
+
+.form-input::placeholder {
+  color: var(--color-gray-600);
+}
+
+/* Light section form inputs */
+.form-input-light {
+  border-bottom-color: var(--color-gray-200);
+  color: var(--color-black);
+}
+
+.form-input-light:focus {
+  border-bottom-color: var(--color-black);
+}
+
+/* Cursor spotlight effect for cards */
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.spotlight-card::before {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 300ms ease;
+  transform: translate(-50%, -50%);
+}
+
+.spotlight-card:hover::before {
+  opacity: 1;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--color-white);
+}
+
+.bg-white ::selection,
+[data-theme="light"] ::selection {
+  background: rgba(0, 0, 0, 0.15);
+  color: var(--color-black);
+}
+
+/* Logo carousel infinite scroll */
+@keyframes scrollLogos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-carousel {
+  animation: scrollLogos 40s linear infinite;
+}
+
+.logo-carousel:hover {
+  animation-play-state: paused;
+}

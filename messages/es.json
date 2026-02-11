@@ -1,0 +1,462 @@
+{
+  "nav": {
+    "home": "INICIO",
+    "services": "SERVICIOS",
+    "development": "DESARROLLO",
+    "security": "SEGURIDAD",
+    "growth": "REVOPS & BI",
+    "team": "EQUIPO",
+    "contact": "CONTACTO"
+  },
+
+  "hero": {
+    "tagline": "Protege la excelencia. Impulsa la innovación.",
+    "tagline2": "La tecnología debe servir a los seres humanos.",
+    "scrollIndicator": "Desplázate para explorar"
+  },
+
+  "brand": {
+    "headline": "Tecnología que protege. Excelencia que escala.",
+    "paragraph1": "Blackwolf es un holding tecnológico creado para organizaciones que se niegan a conformarse. Diseñamos, protegemos y escalamos ecosistemas digitales con precisión e intención.",
+    "paragraph2": "Tres divisiones. Un estándar. Cada solución que entregamos está diseñada para rendir bajo presión, adaptarse a la complejidad y generar valor compuesto con el tiempo.",
+    "values": {
+      "excellence": {
+        "title": "Excelencia",
+        "description": "Construimos al más alto estándar o no construimos. Cada línea de código, cada estrategia, cada recomendación lleva nuestro nombre."
+      },
+      "closeness": {
+        "title": "Cercanía",
+        "description": "Nos integramos con tu equipo, conocemos tu negocio y tratamos tus objetivos como propios. La alianza no es un nivel de servicio. Es nuestra forma de operar."
+      },
+      "speed": {
+        "title": "Velocidad",
+        "description": "Las decisiones ocurren rápido. La entrega ocurre más rápido. Eliminamos la fricción entre la ambición y la ejecución para que el impulso nunca se detenga."
+      }
+    }
+  },
+
+  "divisions": {
+    "sectionLabel": "NUESTRAS DIVISIONES",
+    "development": {
+      "name": "BLACKWOLF DEVELOPMENT",
+      "subtitle": "Automatización IA y Productos Digitales",
+      "description": "Construimos agentes de IA, flujos de automatización y soluciones de IA integradas que transforman la forma en que operan los negocios. Desde plataformas SaaS personalizadas hasta sistemas inteligentes, entregamos productos que rinden.",
+      "exploreCta": "Explorar Desarrollo"
+    },
+    "security": {
+      "name": "BLACKWOLF SECURITY",
+      "subtitle": "Ciberseguridad y Protección",
+      "description": "Defensa proactiva para infraestructura digital. Encontramos vulnerabilidades antes que los atacantes y construimos resiliencia en cada capa de tu stack.",
+      "exploreCta": "Explorar Seguridad"
+    },
+    "growth": {
+      "name": "BLACKWOLF REVOPS & BI",
+      "subtitle": "Estrategia de Datos y Operaciones de Ingresos",
+      "description": "Estrategia basada en datos que convierte conocimiento en ingresos. Optimizamos sistemas de ventas, afinamos el marketing y construimos la inteligencia operativa que tu negocio necesita para escalar.",
+      "exploreCta": "Explorar Inteligencia de Negocio"
+    }
+  },
+
+  "ai": {
+    "headline": "Inteligencia artificial. No como función. Como fundamento.",
+    "cards": {
+      "intelligentDevelopment": {
+        "title": "Agentes de IA y Automatización",
+        "description": "Agentes de IA personalizados que gestionan flujos de trabajo complejos de forma autónoma — desde atención al cliente hasta procesamiento de datos — reduciendo costes operativos hasta un 60%."
+      },
+      "proactiveSecurity": {
+        "title": "Seguridad Proactiva",
+        "description": "Modelos de aprendizaje automático que detectan anomalías en tiempo real, predicen vectores de ataque y automatizan la respuesta a amenazas antes de que se produzcan daños."
+      },
+      "smartGrowth": {
+        "title": "Inteligencia Inteligente",
+        "description": "Analítica predictiva que identifica oportunidades de mercado, optimiza recorridos de cliente y revela los insights que tu equipo de otro modo no detectaría."
+      },
+      "operationalAutomation": {
+        "title": "Soluciones de IA Integradas",
+        "description": "Integración de IA de extremo a extremo en tus sistemas existentes — chatbots, procesamiento de documentos, motores de decisión — adaptados a la lógica específica de tu negocio."
+      }
+    }
+  },
+
+  "engagement": {
+    "sectionLabel": "CÓMO TRABAJAMOS",
+    "headline": "Colaboración flexible. Diseñada para tu ambición.",
+    "models": {
+      "alaCarte": {
+        "name": "A la Carte",
+        "subtitle": "Proyecto Individual",
+        "description": "Un objetivo claro. Un equipo dedicado. Lo definimos, lo construimos y lo entregamos. Ideal para empresas que necesitan ejecución específica sin compromiso a largo plazo."
+      },
+      "allInOne": {
+        "name": "All in One",
+        "subtitle": "Alianza Completa",
+        "description": "Tu socio tecnológico integral en desarrollo, seguridad e inteligencia. Nos integramos con tus operaciones e impulsamos resultados en cada punto de contacto digital.",
+        "recommended": "Recomendado"
+      },
+      "equity": {
+        "name": "All in One + Equity",
+        "subtitle": "Alianza Estratégica",
+        "description": "Invertimos nuestros recursos, experiencia y reputación en tu éxito. La alineación de equity significa que ganamos cuando tú ganas. Reservado para proyectos en los que creemos."
+      }
+    }
+  },
+
+  "pack": {
+    "sectionLabel": "LA MANADA",
+    "headline": "Las mentes detrás de la misión.",
+    "subtitle": "No solo construimos tecnología — la vivimos. Un equipo senior, ágil, obsesionado con la excelencia e impulsado por el impacto.",
+    "members": {
+      "alex": {
+        "name": "Alex Gutiérrez",
+        "role": "CEO y Fundador",
+        "bio": "Emprendedor visionario con profunda experiencia en estrategia de negocio, integración de IA y operaciones de ingresos. Más de $3M en efectivo recaudados para clientes en múltiples industrias."
+      },
+      "alejandro": {
+        "name": "Alejandro Silvestre",
+        "role": "CTO y Fundador",
+        "bio": "Arquitecto técnico e ingeniero full-stack especializado en sistemas escalables, ciberseguridad y soluciones impulsadas por IA. La columna vertebral de ingeniería de Blackwolf."
+      },
+      "antonio": {
+        "name": "Antonio Rivera",
+        "role": "Head of Cybersecurity",
+        "bio": "Investigador de seguridad, hacker ético y cazador de bug bounties con un historial probado asegurando infraestructura crítica. Reconocido por organizaciones como la NASA con menciones en el Hall of Fame y cartas de reconocimiento por la divulgación responsable de vulnerabilidades."
+      }
+    }
+  },
+
+  "portfolio": {
+    "sectionLabel": "TRAYECTORIA",
+    "headline": "Los resultados hablan más fuerte que las promesas.",
+    "disclaimer": "Identidades de clientes protegidas bajo NDA.",
+    "stats": {
+      "cashCollected": {
+        "value": "+3M",
+        "label": "Cash Recaudado para Clientes"
+      },
+      "clients": {
+        "value": "+12",
+        "label": "Clientes"
+      },
+      "apps": {
+        "value": "+10",
+        "label": "Apps Desarrolladas"
+      },
+      "protected": {
+        "value": "+15",
+        "label": "Empresas Protegidas"
+      }
+    }
+  },
+
+  "contact": {
+    "headline": "Construyamos algo extraordinario.",
+    "fields": {
+      "name": "Nombre",
+      "company": "Empresa",
+      "email": "Correo electrónico",
+      "service": "Servicio",
+      "message": "Mensaje"
+    },
+    "services": {
+      "development": "Desarrollo",
+      "security": "Seguridad",
+      "growth": "Inteligencia de Negocio",
+      "fullEcosystem": "Ecosistema Completo",
+      "other": "Otro"
+    },
+    "submitButton": "ENVIAR MENSAJE",
+    "successMessage": "MENSAJE ENVIADO",
+    "sending": "ENVIANDO...",
+    "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "location": "Operaciones globales",
+    "email": "hello@blackwolfsec.io"
+  },
+
+  "thankYou": {
+    "headline": "Mensaje recibido.",
+    "subtitle": "Nos pondremos en contacto en un plazo de 24 horas. Mientras tanto, explora lo que Blackwolf puede hacer por tu negocio.",
+    "backHome": "Volver al Inicio"
+  },
+
+  "cta": {
+    "sectionLabel": "EMPECEMOS",
+    "headline": "Construyamos algo juntos",
+    "description": "Ya sea que necesites un ecosistema tecnológico completo o una solución específica, estamos listos para hablar.",
+    "button": "Contáctanos"
+  },
+
+  "footer": {
+    "tagline": "Protege la excelencia. Impulsa la innovación.",
+    "copyright": "\u00a9 2026 Blackwolf. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos"
+  },
+
+  "development": {
+    "hero": {
+      "title": "BLACKWOLF DEVELOPMENT",
+      "subtitle": "Automatización IA y Productos Digitales",
+      "statement": "Construimos agentes de IA, flujos de automatización y soluciones de IA integradas que transforman la forma en que operan los negocios. Aplicaciones personalizadas, plataformas escalables y sistemas inteligentes diseñados para el rendimiento."
+    },
+    "services": {
+      "sectionLabel": "SERVICIOS",
+      "items": {
+        "customAppDev": {
+          "title": "Agentes de IA y Automatización Personalizada",
+          "description": "Agentes de IA inteligentes que automatizan procesos de negocio complejos — desde cualificación de leads hasta atención al cliente y análisis de datos. Construidos para aprender, adaptarse y escalar con tus operaciones."
+        },
+        "saasArchitecture": {
+          "title": "Arquitectura SaaS",
+          "description": "Plataformas multi-tenant construidas para gestionar millones de usuarios sin esfuerzo. Ingeniería orientada al uptime, la escalabilidad y el rendimiento que tus clientes esperan."
+        },
+        "agencySolutions": {
+          "title": "Soluciones de IA Integradas",
+          "description": "Integración de IA de extremo a extremo en tu stack tecnológico existente. Chatbots, procesamiento de documentos, motores predictivos y sistemas de decisión adaptados a la lógica específica de tu negocio."
+        },
+        "digitalProductDesign": {
+          "title": "Diseño de Producto Digital",
+          "description": "Experiencias de usuario que convierten e interfaces que retienen. Combinamos diseño basado en investigación con precisión técnica para construir productos que la gente realmente quiere usar."
+        },
+        "apiDevelopment": {
+          "title": "Desarrollo e Integración de APIs",
+          "description": "APIs robustas que conectan tus sistemas, socios y flujos de datos en un ecosistema unificado. RESTful, GraphQL o event-driven. Construidas para fiabilidad a escala."
+        },
+        "mobileApps": {
+          "title": "Automatización de Flujos de Trabajo",
+          "description": "Pipelines de automatización inteligente que eliminan tareas repetitivas, conectan tus herramientas y crean flujos de trabajo fluidos — desde CRM hasta cumplimiento y reportes."
+        }
+      }
+    },
+    "ai": {
+      "heading": "Desarrollo Nativo de IA",
+      "examples": {
+        "codeGeneration": {
+          "title": "Agentes de IA Personalizados",
+          "description": "Agentes de IA diseñados a medida, entrenados con tus datos y procesos, que gestionan tareas complejas de múltiples pasos de forma autónoma mientras mantienen tus estándares de calidad."
+        },
+        "automatedTesting": {
+          "title": "Automatización Inteligente",
+          "description": "Automatización de flujos de trabajo de extremo a extremo que conecta tus herramientas, procesa datos y toma decisiones — reduciendo el trabajo manual hasta un 80%."
+        },
+        "predictiveArchitecture": {
+          "title": "Sistemas Predictivos",
+          "description": "Análisis impulsado por IA de patrones y tendencias que informa las decisiones de negocio, predice resultados y revela oportunidades antes de que sean evidentes."
+        }
+      }
+    },
+    "capabilities": {
+      "sectionLabel": "CAPACIDADES",
+      "items": [
+        "Agentes de IA",
+        "Integración LLM",
+        "Sistemas RAG",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "OpenAI",
+        "Anthropic",
+        "LangChain",
+        "AWS",
+        "Docker",
+        "PostgreSQL",
+        "MongoDB",
+        "GraphQL",
+        "REST APIs",
+        "CI/CD",
+        "Automatización",
+        "n8n",
+        "Make",
+        "Zapier"
+      ]
+    }
+  },
+
+  "security": {
+    "hero": {
+      "title": "BLACKWOLF SECURITY",
+      "subtitle": "Ciberseguridad y Protección",
+      "statement": "Tu infraestructura digital es tan fuerte como su capa más débil. Encontramos las brechas, las cerramos y construimos defensas que evolucionan tan rápido como las amenazas que enfrentan."
+    },
+    "services": {
+      "sectionLabel": "SERVICIOS",
+      "items": {
+        "pentesting": {
+          "title": "Pruebas de Penetración",
+          "description": "Ataques simulados que exponen vulnerabilidades reales en tus aplicaciones, redes e infraestructura. Pensamos como atacantes para que puedas defenderte como un experto."
+        },
+        "securityAudits": {
+          "title": "Auditorías de Seguridad",
+          "description": "Evaluaciones integrales de tu postura de seguridad en código, infraestructura y procesos. Entregamos informes accionables, no matrices de riesgo teóricas."
+        },
+        "vulnerabilityAssessment": {
+          "title": "Evaluación de Vulnerabilidades",
+          "description": "Identificación y priorización sistemática de debilidades en toda tu superficie digital. Escaneo continuo. Rankings de severidad claros. Hojas de ruta de remediación."
+        },
+        "infrastructureProtection": {
+          "title": "Protección de Infraestructura",
+          "description": "Entornos cloud y on-premise fortificados con defensas en capas, monitorización en tiempo real y protocolos de respuesta automatizada que contienen amenazas en segundos."
+        },
+        "securityCertification": {
+          "title": "Certificación de Seguridad",
+          "description": "Preparación y soporte guiado para ISO 27001, SOC 2, cumplimiento GDPR y certificaciones sectoriales. Optimizamos el proceso para que alcances el cumplimiento más rápido."
+        },
+        "incidentResponse": {
+          "title": "Respuesta ante Incidentes",
+          "description": "Contención rápida, análisis forense y recuperación cuando ocurren incidentes. Nuestros equipos de respuesta se despliegan en horas y trabajan hasta restaurar completamente tus operaciones."
+        }
+      }
+    },
+    "ai": {
+      "heading": "Seguridad Potenciada por Nuestro Sistema",
+      "note": "Todos nuestros sistemas están potenciados por inteligencia artificial. Nuestro SOC propio monitoriza, detecta y responde a amenazas en tiempo real.",
+      "examples": {
+        "threatDetection": {
+          "title": "Detección de Amenazas en Tiempo Real",
+          "description": "Modelos de aprendizaje automático que analizan patrones de tráfico de red y alertan sobre anomalías antes de que escalen a brechas de seguridad."
+        },
+        "predictiveDefense": {
+          "title": "Defensa Predictiva",
+          "description": "Sistemas de IA que aprenden de inteligencia de amenazas global para anticipar vectores de ataque y reforzar preventivamente tus defensas."
+        },
+        "automatedResponse": {
+          "title": "Respuesta Automatizada a Incidentes",
+          "description": "Automatización inteligente que aísla sistemas comprometidos, preserva evidencia forense e inicia protocolos de recuperación en tiempo real."
+        }
+      }
+    },
+    "capabilities": {
+      "sectionLabel": "CAPACIDADES",
+      "items": [
+        "OWASP",
+        "NIST",
+        "ISO 27001",
+        "SOC 2",
+        "GDPR",
+        "Zero Trust",
+        "SIEM",
+        "EDR",
+        "XDR",
+        "Inteligencia de Amenazas",
+        "Respuesta a Incidentes",
+        "Seguridad Cloud",
+        "Seguridad de Red",
+        "Seguridad de Aplicaciones",
+        "Identidad y Acceso",
+        "Cifrado",
+        "Cumplimiento",
+        "Forense",
+        "Red Teaming",
+        "Blue Teaming"
+      ]
+    }
+  },
+
+  "growth": {
+    "hero": {
+      "title": "BLACKWOLF REVOPS & BI",
+      "subtitle": "Estrategia de Datos y Operaciones de Ingresos",
+      "statement": "El crecimiento no es adivinanza. Construimos los sistemas, estrategias y capas de inteligencia que convierten datos en decisiones y decisiones en ingresos medibles."
+    },
+    "services": {
+      "sectionLabel": "SERVICIOS",
+      "items": {
+        "businessIntelligence": {
+          "title": "Inteligencia de Negocio",
+          "description": "Dashboards personalizados y plataformas de analítica que revelan las métricas que importan. Transformamos datos brutos en claridad estratégica sobre la que tu equipo directivo puede actuar de inmediato."
+        },
+        "salesSystems": {
+          "title": "Sistemas de Ventas",
+          "description": "Infraestructura comercial de extremo a extremo, desde la optimización de CRM hasta la automatización del pipeline. Diseñamos sistemas que acortan ciclos, aumentan la conversión y escalan con tu equipo."
+        },
+        "marketingStrategy": {
+          "title": "Estrategia de Marketing",
+          "description": "Frameworks de marketing orientados a rendimiento construidos sobre datos, no suposiciones. Diseñamos canales de adquisición, optimizamos la inversión y medimos lo que realmente impulsa el crecimiento."
+        },
+        "teamTraining": {
+          "title": "Formación y Capacitación de Equipos",
+          "description": "Programas estructurados que elevan las capacidades de tu equipo en ventas, tecnología y operaciones. Transferimos conocimiento que genera valor compuesto mucho después de que finalice la colaboración."
+        },
+        "softwareSolutions": {
+          "title": "Soluciones de Software para Crecimiento",
+          "description": "Herramientas a medida construidas específicamente para acelerar tus operaciones de crecimiento. Desde motores de scoring de leads hasta reporting automatizado, construimos el software que tu equipo de crecimiento necesita."
+        },
+        "communityBuilding": {
+          "title": "Construcción de Comunidad",
+          "description": "Desarrollo estratégico de comunidad que convierte clientes en embajadores. Diseñamos frameworks de engagement, construimos plataformas y creamos ecosistemas que impulsan crecimiento orgánico."
+        }
+      }
+    },
+    "ai": {
+      "heading": "Inteligencia Potenciada por Nuestro Sistema",
+      "note": "Todos nuestros sistemas están potenciados por inteligencia artificial. Nuestra plataforma Minimal centraliza ventas, calendario, analítica y finanzas en un único entorno diseñado para escalar operaciones de ingresos.",
+      "examples": {
+        "predictiveAnalytics": {
+          "title": "Analítica Predictiva de Ingresos",
+          "description": "Modelos de IA que pronostican tendencias de ingresos, identifican riesgos de abandono y revelan oportunidades de upsell antes de que tus competidores las detecten."
+        },
+        "customerIntelligence": {
+          "title": "Inteligencia de Cliente",
+          "description": "Aprendizaje automático que segmenta audiencias, personaliza experiencias y mapea recorridos de cliente con una precisión que el análisis manual no puede igualar."
+        },
+        "marketOptimization": {
+          "title": "Optimización de Mercado",
+          "description": "Análisis impulsado por IA de dinámicas de mercado, posicionamiento competitivo y estrategia de precios que te mantiene por delante de los cambios en tu industria."
+        }
+      }
+    },
+    "capabilities": {
+      "sectionLabel": "CAPACIDADES",
+      "items": [
+        "Business Intelligence",
+        "Data Analytics",
+        "Optimización CRM",
+        "Automatización de Ventas",
+        "Automatización de Marketing",
+        "SEO y SEM",
+        "Estrategia de Contenido",
+        "Generación de Leads",
+        "Optimización de Conversión",
+        "Analítica de Cliente",
+        "Investigación de Mercado",
+        "Análisis Competitivo",
+        "Revenue Operations",
+        "Growth Hacking",
+        "A/B Testing",
+        "Modelos de Atribución",
+        "Plataformas de Comunidad",
+        "Programas de Formación"
+      ]
+    }
+  },
+
+  "meta": {
+    "siteTitle": "Blackwolf — Holding Tecnológico",
+    "home": {
+      "title": "Blackwolf — Protege la excelencia. Impulsa la innovación.",
+      "description": "Blackwolf es un holding tecnológico premium especializado en automatización con IA, ciberseguridad e inteligencia de negocio. Tres divisiones. Un estándar de excelencia."
+    },
+    "development": {
+      "title": "Desarrollo — Blackwolf",
+      "description": "Agentes de IA, flujos de automatización y soluciones de IA integradas. Blackwolf Development construye los sistemas inteligentes sobre los que operan las empresas ambiciosas."
+    },
+    "security": {
+      "title": "Seguridad — Blackwolf",
+      "description": "Pruebas de penetración, auditorías de seguridad, protección de infraestructura y certificación de cumplimiento. Blackwolf Security defiende tus activos digitales con precisión."
+    },
+    "growth": {
+      "title": "Inteligencia de Negocio — Blackwolf",
+      "description": "Inteligencia de negocio, sistemas de ventas, estrategia de marketing y optimización operativa. Blackwolf Intelligence convierte datos en decisiones y decisiones en ingresos."
+    },
+    "contact": {
+      "title": "Contacto — Blackwolf",
+      "description": "Ponte en contacto con Blackwolf. Construyamos algo extraordinario juntos."
+    },
+    "team": {
+      "title": "Equipo — Blackwolf",
+      "description": "Conoce las mentes detrás de Blackwolf. Un equipo senior, ágil, obsesionado con la excelencia e impulsado por el impacto."
+    }
+  }
+}
